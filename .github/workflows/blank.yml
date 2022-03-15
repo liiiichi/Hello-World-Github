@@ -7,10 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print a greeting
-    env:
-      MY_VAR: Hi there! My name is
-      FIRST_NAME: Chi
-      MIDDLE_NAME: 
-      LAST_NAME: Li
-    run: |
-    echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
+      env:
+        MY_VAR: Hi there! My name is
+        FIRST_NAME: Chi
+        LAST_NAME: Li
+      run: |
+        echo $MY_VAR $FIRST_NAME $LAST_NAME
