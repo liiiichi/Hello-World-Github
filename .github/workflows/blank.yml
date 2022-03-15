@@ -10,7 +10,6 @@ jobs:
     env:
       MY_VAR: Hi there! My name is
       FIRST_NAME: Chi
-      MIDDLE_NAME: 
       LAST_NAME: Li
     run: |
-    echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
+      echo $MY_VAR $FIRST_NAME $LAST_NAME.
